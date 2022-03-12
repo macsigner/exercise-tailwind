@@ -1,0 +1,7 @@
+.DS_Store
+.prettierignore
+.idea
+.vscode
+/assets/css/*.css
+/assets/css/*.map
+/node_modules
