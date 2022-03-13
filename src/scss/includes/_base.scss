@@ -1,0 +1,18 @@
+/**
+ * base bem module
+ */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body > main {
+    flex: 1 0 auto;
+}
+
+body > header,
+body > footer {
+    flex: 0 0 auto;
+}

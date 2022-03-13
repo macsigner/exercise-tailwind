@@ -2,6 +2,8 @@
 .prettierignore
 .idea
 .vscode
+.parcel-cache
+/dist
 /assets/css/*.css
 /assets/css/*.map
 /node_modules

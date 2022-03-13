@@ -1,19 +1,17 @@
 {
     "name": "exercise-tailwind",
     "version": "1.0.0",
-    "description": "Loading Screens ===============",
+    "description": "Excercis for tailwind css",
     "main": "index.js",
-    "scripts": {
-        "watch": "watch 'npm run build' ./",
-        "build": "postcss src/css/main.css -o assets/css/main.css"
-    },
+    "source": "src/indext.html",
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@parcel/transformer-sass": "^2.3.2",
         "autoprefixer": "^10.4.2",
+        "parcel": "^2.3.2",
         "postcss": "^8.4.8",
-        "tailwindcss": "^3.0.23",
-        "watch": "^1.0.2"
+        "tailwindcss": "^3.0.23"
     }
 }
